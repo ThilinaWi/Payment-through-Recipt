@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900& display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ededf2;
+  }
+  
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-box {
+    padding: 20px;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .input-box input {
+    width: 80%;
+    padding: 10px 20px;
+    border: 1px solid #020217;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left:50px;
+    margin-bottom:20px;
+    margin-right:50px;
+    
+  }
+  
+  .input-box i {
+    position: absolute;
+    top:25%;
+    right: 40px;
+    transform: translateY(-60%);
+    color: #ccc;
+    font-size: 20px;
+  }
+  
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 13px;
+    
+    
+  }
+  
+  .remember-forgot label {
+    font-size: 13px;
+    color: #333;
+    margin-right: 20px;
+    
+  }
+  
+  .remember-forgot a {
+    color: #3f51b5;
+    text-decoration: none;
+    right: -20;
+    }
+ 
+  .remeber-forgot a:hover{
+    text-decoration: underline;
+
+
+  }
+  
+  .btn {
+    width: 300px;
+    height: 35px;
+    background: #124E66;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all-35;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 0px 10px;
+  }
+  
+  .btn:hover {
+    background-color: #2f3c9a;
+  }
+  
+  .Register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+.Register-link p {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .Register-link a {
+    color: #3f51b5;
+    text-decoration: none;
+    font-weight: bold;
+  }

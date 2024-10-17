@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Bank Guide</title>
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/exam.css">
+</head>
+<body>
+    <header class="head1">
+        <div class="logo">
+            
+            <h1>Online Examination Platform</h1>
+        </div>
+        <div class="user-section">
+            <span class="user-name">User Name</span>
+            <img src="Images/usericon.png" alt="User Icon" class="user-icon">
+        </div>
+    </header>
+    <header class="head2">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html"><img src="Images/homeicon.png" alt="Home Icon"> Home</a></li>
+                <li><a href="exam.html"><img src="Images/examicon.png" alt="Exam Icon"> Exam</a></li>
+                <li><a href="result.html"><img src="Images/result.png" alt="Result Icon"> Result</a></li>
+                <li><a href="payment.html"><img src="Images/savepay1.png" alt="Payment Icon"> Payment</a></li>
+                <li><a href="library.html"><img src="Images/libraryicon.png" alt="Library Icon"> Library</a></li>
+                <li><a href="help.html"><img src="Images/help.png" alt="Help Icon"> Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+
+
+
+ <center>
+
+    <h3 class="head3">Good Luck For Your Exam....</h3>
+<div class="select-exam">
+    
+    <label ><h2>Please select a Your exam</h2></label>
+    <select id="linkSelect" class="selection">
+        <option value="bankent.php">Bank Entrance Exams</option>
+        <option value="cont_dash.php">RBI Grade B Exams</option>
+        <option value="exam3">Promotional Exams</option>
+        <option value="exam4">Specialist Officer Exams</option>
+        <option value="exam5">Banking Awareness Exams</option>
+
+    </select>
+    <br>
+    <br>
+    
+    <button id="navigateButton" class="button">Select</button>
+
+</div>
+</center>
+
+<br>
+<br>
+<!--guidlines-->
+<div class="guideline">
+    <h2>Exam Guidelines</h2>
+        <a href="guideline.html" target="_blank">
+        <button class="guide-btn">Click Here</button>
+        </a>
+</div>
+<!--end guidline-->
+<br><br><br><br>
+
+<footer>
+    <div class="footer-container">
+        <div class="logo">
+            <img src="Images/logo.jpg" alt="Logo">
+        </div>
+
+        <div class="footer-follow-us">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><img src="Images/fbicon.png" alt="Facebook"></a>
+                <a href="#"><img src="Images/whatsappicon.png" alt="WhatsApp"></a>
+                <a href="#"><img src="Images/youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="Images/tiwitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <a href="aboutus.html"><img src="Images/about.png" alt="About Icon">About Us</a>
+            <a href="t&c.html"><img src="Images/t&c.png" alt="t&c Icon">Terms and Conditions</a>
+            <a href="contactus.html"><img src="Images/callicon.png" alt="Contact Icon">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <p>Copyright 2024 © TopBankGuide. All Rights Reserved.</p>
+    </div>
+</footer>   
+
+
+<script>
+    document.getElementById('navigateButton').addEventListener('click', function() {
+        
+        var selectedLink = document.getElementById('linkSelect').value;
+    
+                if (selectedLink) {
+            
+            window.location.href = selectedLink;
+        } else {
+        
+            alert("Please select a valid option.");
+        }
+    });
+    </script>
+
+</body>
+</html>

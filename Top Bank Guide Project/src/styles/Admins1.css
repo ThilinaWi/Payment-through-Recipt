@@ -1,0 +1,27 @@
+
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.form-column {
+    width: 48%;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.btn, .btn1 {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .form-column {
+        width: 100%;
+    }
+}
